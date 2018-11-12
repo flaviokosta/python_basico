@@ -10,7 +10,7 @@ lista_filme = None
 
 texto = input('Digite o termo para busca: ')
 
-requisicao = requests.get('http://www.omdbapi.com/?s=' + texto + '&page=1&type=movie&apikey=5287d074')
+requisicao = requests.get('http://www.omdbapi.com/?s=' + texto + '&page=1&type=movie')
 
 filme = json.loads(requisicao.text)
 
