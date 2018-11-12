@@ -3,11 +3,11 @@ import json
 import urllib.parse
 
 
-consumer_key = 'WRXnyJds71yDayQaXFxPpI2jv'
-consumer_secret = 'AjpaogRVFUyuZTfvaNgwj08J0pD3n6f1k08BjUUlapnUFca2w4'
+consumer_key = ''
+consumer_secret = ''
 
-token_key = '799122088594460672-vzJloX2qozKzEuJhNuyB1oew8rJSEzF'
-token_secret = 'COd1bb65SodeBgD7zPTseuZ9lUBpkeeapROr0MXFprlqz'
+token_key = ''
+token_secret = ''
 
 consumer = oauth2.Consumer(consumer_key, consumer_secret)
 token = oauth2.Token(token_key, token_secret)
